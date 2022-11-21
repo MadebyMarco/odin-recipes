@@ -1,5 +1,44 @@
-h1 {
-    font-size: 32px;
-    font-family: helvetica, sans-serif;
+body{
+    font-family: Helvetica, sans-serif;
     text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+ul {
+   list-style-position: inside;
+}
+
+.hero-image{
+    height: 400px;
+    width: 400px;
+}
+
+body h2 {
+    background: rgb(142, 142, 228);
+}
+
+#ingredients-div {
+    background-color: rgb(159, 206, 233);
+}
+
+#steps-div {
+    background-color: rgb(204, 103, 103);
+}
+
+p.description {
+    background-color: rgb(228, 191, 142);
 }
